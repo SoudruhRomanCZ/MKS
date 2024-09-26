@@ -95,8 +95,46 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+  uint8_t i = 0;
+  /* init for morse code via bits */
+  uint32_t morse = 0b10101001110111011100101010000000;
+
+  /* init of morse code array
+  uint8_t array[32] = {1,0,1,0,1, 0,0, 1,1,1,0,1,1,1,0,1,1,1, 0,0, 1,0,1,0,1, 0,0, 0,0,0,0,0};
+  */
   while (1)
   {
+	  if ((morse & (1<<i)) > 0){
+		  LL_GPIO_SetOutputPin(LD2_GPIO_Port, LD2_Pin);
+	  } else {
+		  LL_GPIO_ResetOutputPin(LD2_GPIO_Port, LD2_Pin);
+	  }
+	  LL_mDelay(200);
+
+	  if (i<31){
+		  i++;
+	  } else {
+		  i=0;
+	  }
+
+	  /* blinking via array
+	  if (array[i]==1){
+		  LL_GPIO_SetOutputPin(LD2_GPIO_Port, LD2_Pin);
+	  } else {
+		  LL_GPIO_ResetOutputPin(LD2_GPIO_Port, LD2_Pin);
+	  }
+	  LL_mDelay(200);
+	  if (i<31){
+		  i++;
+	  } else {
+		  i=0;
+	  }
+	  */
+	/* Blinking LED
+	LL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
+	LL_mDelay(200);
+	*/
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
