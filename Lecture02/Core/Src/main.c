@@ -35,6 +35,7 @@
 #define button2_DELAY 	20
 #define LED_SHORT_TIME 	100
 #define LED_LONG_TIME 	1000
+#define DEBOUNCE_TIME 	5
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -74,24 +75,43 @@ static void blink(){ // static- determines localization (so it functions in main
 static void button2(){ // static- determines localization (so it functions in main.c, and if another .c the function blink() can exist and will not be overriten by this)
 
 	static uint32_t last_button_tick; //variable to store last blink
+	static uint32_t last_debounce_tick;
 	static uint32_t off_time;
+
+
+	if(tick > last_debounce_tick + DEBOUNCE_TIME){
+		last_debounce_tick = tick;
+		static uint16_t debounce = 0xFFFF;
+
+		debounce <<= 1; // bit shifting
+		if(LL_GPIO_IsInputPinSet(S1_GPIO_Port, S1_Pin) == 1){ debounce |= 0x0001;}
+
+		if(debounce == 0x8000){
+
+			// blinks LED2 for 1s
+			off_time = tick + LED_LONG_TIME;
+			LL_GPIO_SetOutputPin(LED2_GPIO_Port, LED2_Pin);
+		}
+	}
 
 	if( tick > last_button_tick + button2_DELAY){
 		last_button_tick = tick;
 
 		//loop code
+/*
 		static uint32_t old_s1;
 		uint32_t new_s1=LL_GPIO_IsInputPinSet(S1_GPIO_Port, S1_Pin);
-
+*/
 		static uint32_t old_s2;
 		uint32_t new_s2=LL_GPIO_IsInputPinSet(S2_GPIO_Port, S2_Pin);
-
+/*
 		// blinks LED2 for 1s
 		if (old_s1 && !new_s1){	//falling edge
 			off_time = tick + LED_LONG_TIME;
 			LL_GPIO_SetOutputPin(LED2_GPIO_Port, LED2_Pin);
 		}
 		old_s1 = new_s1;
+*/
 		// blinks LED2 for 0.1s
 		if (old_s2 && !new_s2){	//falling edge
 			off_time = tick + LED_SHORT_TIME;
@@ -104,7 +124,6 @@ static void button2(){ // static- determines localization (so it functions in ma
 	if (tick > off_time){
 		LL_GPIO_ResetOutputPin(LED2_GPIO_Port, LED2_Pin);
 	}
-
 }
 /* USER CODE END 0 */
 
