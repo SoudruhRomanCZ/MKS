@@ -947,3 +947,30 @@ Finished building: default.size.stdout
  
 Finished building: Lecture03.list
  
+11:11:00 **** Incremental Build of configuration Debug for project Lecture03 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:113:17: warning: implicit declaration of function '_HAL_TIM_GET_COUNTER' [-Wimplicit-function-declaration]
+  113 |           rot = _HAL_TIM_GET_COUNTER(&htim1);
+      |                 ^~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Lecture03.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture03\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture03.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/appz/ST/STM32CubeIDE_1.10.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Temp/240642/MKS/Lecture03/Debug/../Core/Src/main.c:113: undefined reference to `_HAL_TIM_GET_COUNTER'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: Lecture03.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:11:21 **** Incremental Build of configuration Debug for project Lecture03 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture03.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture03\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture03.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture03.elf
+ 
+arm-none-eabi-size  Lecture03.elf 
+arm-none-eabi-objdump -h -S Lecture03.elf  > "Lecture03.list"
+   text	   data	    bss	    dec	    hex	filename
+   9212	     12	   1780	  11004	   2afc	Lecture03.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture03.list
+ 
