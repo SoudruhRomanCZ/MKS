@@ -974,3 +974,1201 @@ Finished building: default.size.stdout
  
 Finished building: Lecture03.list
  
+10:27:25 **** Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m0 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f030r8tx.d" -MT"Core/Startup/startup_stm32f030r8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f030r8tx.o" "../Core/Startup/startup_stm32f030r8tx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/sct.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sct.d" -MT"Core/Src/sct.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sct.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f0xx.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f0xx.d" -MT"Core/Src/system_stm32f0xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f0xx.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10492	     12	   1772	  12276	   2ff4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:27:34 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-size  Lecture04.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10492	     12	   1772	  12276	   2ff4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+10:27:55 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10504	     12	   1772	  12288	   3000	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:29:11 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10584	     12	   1772	  12368	   3050	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:30:09 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10592	     12	   1772	  12376	   3058	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:40:02 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/sct.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sct.d" -MT"Core/Src/sct.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sct.o"
+../Core/Src/sct.c:50:17: warning: excess elements in array initializer
+   50 |                 {
+      |                 ^
+../Core/Src/sct.c:50:17: note: (near initialization for 'reg_values')
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10628	     12	   1772	  12412	   307c	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:42:37 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/sct.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sct.d" -MT"Core/Src/sct.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sct.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:9: error: too few arguments to function 'sct_value'
+  108 |         sct_value(raw_pot);
+      |         ^~~~~~~~~
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/sct.h:17:6: note: declared here
+   17 | void sct_value(uint16_t value, uint8_t led);
+      |      ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/sct.c:50:17: warning: excess elements in array initializer
+   50 |                 {
+      |                 ^
+../Core/Src/sct.c:50:17: note: (near initialization for 'reg_values')
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+10:42:54 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10620	     12	   1772	  12404	   3074	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:43:19 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10620	     12	   1772	  12404	   3074	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:43:39 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10620	     12	   1772	  12404	   3074	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:44:12 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10620	     12	   1772	  12404	   3074	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:44:32 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10620	     12	   1772	  12404	   3074	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:44:49 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10600	     12	   1772	  12384	   3060	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:46:07 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10600	     12	   1772	  12384	   3060	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:46:55 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/sct.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sct.d" -MT"Core/Src/sct.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sct.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10640	     12	   1772	  12424	   3088	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:47:54 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10640	     12	   1772	  12424	   3088	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:50:34 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10676	     12	   1772	  12460	   30ac	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:51:02 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10680	     12	   1772	  12464	   30b0	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:51:56 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10680	     12	   1772	  12464	   30b0	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:52:28 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10676	     12	   1772	  12460	   30ac	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:54:02 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10684	     12	   1772	  12468	   30b4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:58:39 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10692	     12	   1772	  12476	   30bc	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:59:06 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10684	     12	   1772	  12468	   30b4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:59:32 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10680	     12	   1772	  12464	   30b0	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+10:59:52 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10684	     12	   1772	  12468	   30b4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:02:24 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10676	     12	   1772	  12460	   30ac	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:03:28 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10700	     12	   1772	  12484	   30c4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:12:05 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10736	     12	   1780	  12528	   30f0	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:13:07 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10732	     12	   1780	  12524	   30ec	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:17:06 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:68:3: error: 'avg_pot' undeclared (first use in this function); did you mean 'avg_pot_t'?
+   68 |   avg_pot = avg_pot_t >> ADC_Q;
+      |   ^~~~~~~
+      |   avg_pot_t
+../Core/Src/main.c:68:3: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:68:26: error: 'ADC_Q' undeclared (first use in this function)
+   68 |   avg_pot = avg_pot_t >> ADC_Q;
+      |                          ^~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:17:48 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:68:3: error: 'avg_pot' undeclared (first use in this function); did you mean 'avg_pot_t'?
+   68 |   avg_pot = avg_pot_t >> ADC_Q;
+      |   ^~~~~~~
+      |   avg_pot_t
+../Core/Src/main.c:68:3: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:69:15: warning: implicit declaration of function 'apply_Q' [-Wimplicit-function-declaration]
+   69 |   avg_pot_t -=apply_Q(value_avg);
+      |               ^~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:18:54 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:68:3: error: 'avg_pot' undeclared (first use in this function); did you mean 'avg_pot_t'?
+   68 |   avg_pot = avg_pot_t >> ADC_Q;
+      |   ^~~~~~~
+      |   avg_pot_t
+../Core/Src/main.c:68:3: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:19:29 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:67:13: error: 'avg_pot_t' undeclared (first use in this function); did you mean 'avg_pot'?
+   67 |   raw_pot = avg_pot_t >> ADC_Q;
+      |             ^~~~~~~~~
+      |             avg_pot
+../Core/Src/main.c:67:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:117:19: error: 'value_avg' undeclared (first use in this function)
+  117 |         sct_value(value_avg * 501 / 4095 , value_avg * 9 / 4095);
+      |                   ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:19:45 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:117:19: error: 'value_avg' undeclared (first use in this function)
+  117 |         sct_value(value_avg * 501 / 4095 , value_avg * 9 / 4095);
+      |                   ^~~~~~~~~
+../Core/Src/main.c:117:19: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:20:10 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10732	     12	   1780	  12524	   30ec	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:30:08 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/sct.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sct.d" -MT"Core/Src/sct.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sct.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:70:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   70 |   if (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS)) channel = 0;{
+      |   ^~
+../Core/Src/main.c:70:59: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   70 |   if (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS)) channel = 0;{
+      |                                                           ^
+../Core/Src/main.c:77:5: error: 'else' without a previous 'if'
+   77 |   } else if () channel = 1{
+      |     ^~~~
+../Core/Src/main.c:77:14: error: expected expression before ')' token
+   77 |   } else if () channel = 1{
+      |              ^
+../Core/Src/main.c:69:28: warning: variable 'channel' set but not used [-Wunused-but-set-variable]
+   69 |   static uint32_t avg_pot, channel;
+      |                            ^~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:30:57 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:70:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   70 |   if (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS)) channel = 0;{
+      |   ^~
+../Core/Src/main.c:70:59: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   70 |   if (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS)) channel = 0;{
+      |                                                           ^
+../Core/Src/main.c:77:5: error: 'else' without a previous 'if'
+   77 |   } else if (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS)) channel = 1{
+      |     ^~~~
+../Core/Src/main.c:77:65: error: expected ';' before '{' token
+   77 |   } else if (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS)) channel = 1{
+      |                                                                 ^
+      |                                                                 ;
+../Core/Src/main.c:69:28: warning: variable 'channel' set but not used [-Wunused-but-set-variable]
+   69 |   static uint32_t avg_pot, channel;
+      |                            ^~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:31:31 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:71:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   71 |   if (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS)) channel = 0;{
+      |   ^~
+../Core/Src/main.c:71:59: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   71 |   if (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS)) channel = 0;{
+      |                                                           ^
+../Core/Src/main.c:78:5: error: 'else' without a previous 'if'
+   78 |   } else if (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS)) channel = 1{
+      |     ^~~~
+../Core/Src/main.c:78:65: error: expected ';' before '{' token
+   78 |   } else if (__HAL_ADC_GET_FLAG(hadc, ADC_FLAG_EOS)) channel = 1{
+      |                                                                 ^
+      |                                                                 ;
+../Core/Src/main.c:70:18: warning: variable 'channel' set but not used [-Wunused-but-set-variable]
+   70 |   static uint8_t channel;
+      |                  ^~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:33:39 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:76:7: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   76 |   if (channel = 0)) {
+      |       ^~~~~~~
+../Core/Src/main.c:76:19: error: expected statement before ')' token
+   76 |   if (channel = 0)) {
+      |                   ^
+../Core/Src/main.c:76:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   76 |   if (channel = 0)) {
+      |   ^~
+../Core/Src/main.c:76:21: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   76 |   if (channel = 0)) {
+      |                     ^
+../Core/Src/main.c:83:5: error: 'else' without a previous 'if'
+   83 |   } else if (channel = 1) {
+      |     ^~~~
+../Core/Src/main.c:83:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   83 |   } else if (channel = 1) {
+      |              ^~~~~~~
+../Core/Src/main.c:88:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   88 |   } else if (channel = 2) {
+      |              ^~~~~~~
+../Core/Src/main.c:89:20: warning: unused variable 'voltage' [-Wunused-variable]
+   89 |           uint32_t voltage = 330 * (*VREFINT_CAL_ADDR) / raw_volt;
+      |                    ^~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:36:21 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:75:7: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   75 |   if (channel = 0) {
+      |       ^~~~~~~
+../Core/Src/main.c:82:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   82 |   } else if (channel = 1) {
+      |              ^~~~~~~
+../Core/Src/main.c:87:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   87 |   } else if (channel = 2) {
+      |              ^~~~~~~
+../Core/Src/main.c:88:20: warning: unused variable 'voltage' [-Wunused-variable]
+   88 |           uint32_t voltage = 330 * (*VREFINT_CAL_ADDR) / raw_volt;
+      |                    ^~~~~~~
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11320	     12	   1780	  13112	   3338	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:44:03 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:75:7: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   75 |   if (channel = 0) {
+      |       ^~~~~~~
+../Core/Src/main.c:82:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   82 |   } else if (channel = 1) {
+      |              ^~~~~~~
+../Core/Src/main.c:87:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   87 |   } else if (channel = 2) {
+      |              ^~~~~~~
+../Core/Src/main.c:88:20: warning: unused variable 'voltage' [-Wunused-variable]
+   88 |           uint32_t voltage = 330 * (*VREFINT_CAL_ADDR) / raw_volt;
+      |                    ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:147:23: warning: statement with no effect [-Wunused-value]
+  147 |                 state == SHOW_VOLT;
+      |                 ~~~~~~^~~~~~~~~~~~
+../Core/Src/main.c:148:17: error: too many arguments to function 'HAL_GetTick'
+  148 |                 HAL_GetTick(1);
+      |                 ^~~~~~~~~~~
+In file included from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:546:21: note: declared here
+  546 | uint32_t            HAL_GetTick(void);
+      |                     ^~~~~~~~~~~
+../Core/Src/main.c:152:23: warning: statement with no effect [-Wunused-value]
+  152 |                 state == SHOW_TEMP;
+      |                 ~~~~~~^~~~~~~~~~~~
+../Core/Src/main.c:153:17: error: too many arguments to function 'HAL_GetTick'
+  153 |                 HAL_GetTick(1);
+      |                 ^~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:546:21: note: declared here
+  546 | uint32_t            HAL_GetTick(void);
+      |                     ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:44:25 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:75:7: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   75 |   if (channel = 0) {
+      |       ^~~~~~~
+../Core/Src/main.c:82:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   82 |   } else if (channel = 1) {
+      |              ^~~~~~~
+../Core/Src/main.c:87:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   87 |   } else if (channel = 2) {
+      |              ^~~~~~~
+../Core/Src/main.c:88:20: warning: unused variable 'voltage' [-Wunused-variable]
+   88 |           uint32_t voltage = 330 * (*VREFINT_CAL_ADDR) / raw_volt;
+      |                    ^~~~~~~
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11496	     12	   1788	  13296	   33f0	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:45:43 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:75:7: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   75 |   if (channel = 0) {
+      |       ^~~~~~~
+../Core/Src/main.c:82:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   82 |   } else if (channel = 1) {
+      |              ^~~~~~~
+../Core/Src/main.c:88:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   88 |   } else if (channel = 2) {
+      |              ^~~~~~~
+../Core/Src/main.c:90:20: warning: unused variable 'voltage' [-Wunused-variable]
+   90 |           uint32_t voltage = 330 * (*VREFINT_CAL_ADDR) / raw_volt;
+      |                    ^~~~~~~
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11524	     12	   1788	  13324	   340c	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:47:09 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:71:7: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   71 |   if (channel = 0) {
+      |       ^~~~~~~
+../Core/Src/main.c:78:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   78 |   } else if (channel = 1) {
+      |              ^~~~~~~
+../Core/Src/main.c:86:14: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   86 |   } else if (channel = 2) {
+      |              ^~~~~~~
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  10992	     12	   1788	  12792	   31f8	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:47:41 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11076	     12	   1788	  12876	   324c	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:50:53 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:87:20: warning: unused variable 'voltage' [-Wunused-variable]
+   87 |           uint32_t voltage = 330 * (*VREFINT_CAL_ADDR) / raw_volt;
+      |                    ^~~~~~~
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11648	     12	   1788	  13448	   3488	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:52:05 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:87:20: warning: unused variable 'voltage' [-Wunused-variable]
+   87 |           uint32_t voltage = 330 * (*VREFINT_CAL_ADDR) / raw_volt;
+      |                    ^~~~~~~
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11604	     12	   1788	  13404	   345c	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:53:09 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:81:22: error: 'temperature' undeclared (first use in this function)
+   81 |           raw_temp = temperature * (int32_t)(110 - 30);
+      |                      ^~~~~~~~~~~
+../Core/Src/main.c:81:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:55:27 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11600	     12	   1788	  13400	   3458	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:56:00 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11604	     12	   1788	  13404	   345c	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:56:51 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11632	     12	   1788	  13432	   3478	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:57:39 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11636	     12	   1788	  13436	   347c	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:58:37 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11640	     12	   1788	  13440	   3480	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+11:59:21 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11608	     12	   1788	  13408	   3460	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:02:58 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:151:23: warning: statement with no effect [-Wunused-value]
+  151 |                 state == SHOW_VOLT;
+      |                 ~~~~~~^~~~~~~~~~~~
+../Core/Src/main.c:152:17: error: too many arguments to function 'HAL_GetTick'
+  152 |                 HAL_GetTick(1);
+      |                 ^~~~~~~~~~~
+In file included from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:546:21: note: declared here
+  546 | uint32_t            HAL_GetTick(void);
+      |                     ^~~~~~~~~~~
+../Core/Src/main.c:156:23: warning: statement with no effect [-Wunused-value]
+  156 |                 state == SHOW_TEMP;
+      |                 ~~~~~~^~~~~~~~~~~~
+../Core/Src/main.c:157:17: error: too many arguments to function 'HAL_GetTick'
+  157 |                 HAL_GetTick(1);
+      |                 ^~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:546:21: note: declared here
+  546 | uint32_t            HAL_GetTick(void);
+      |                     ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:07:53 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'wait':
+../Core/Src/main.c:95:13: error: 'tick' undeclared (first use in this function)
+   95 |         if( tick > last_tick + Time_DELAY){
+      |             ^~~~
+../Core/Src/main.c:95:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:98:17: error: 'state' undeclared (first use in this function)
+   98 |                 state = SHOW_POT;
+      |                 ^~~~~
+../Core/Src/main.c:98:25: error: 'SHOW_POT' undeclared (first use in this function)
+   98 |                 state = SHOW_POT;
+      |                         ^~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:165:23: warning: statement with no effect [-Wunused-value]
+  165 |                 state == SHOW_VOLT;
+      |                 ~~~~~~^~~~~~~~~~~~
+../Core/Src/main.c:169:23: warning: statement with no effect [-Wunused-value]
+  169 |                 state == SHOW_TEMP;
+      |                 ~~~~~~^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:08:12 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'wait':
+../Core/Src/main.c:95:13: error: 'tick' undeclared (first use in this function)
+   95 |         if( tick > last_tick + Time_DELAY){
+      |             ^~~~
+../Core/Src/main.c:95:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:98:17: error: 'state' undeclared (first use in this function)
+   98 |                 state = SHOW_POT;
+      |                 ^~~~~
+../Core/Src/main.c:98:25: error: 'SHOW_POT' undeclared (first use in this function)
+   98 |                 state = SHOW_POT;
+      |                         ^~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:08:51 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'wait':
+../Core/Src/main.c:95:13: error: 'tick' undeclared (first use in this function)
+   95 |         if( tick > last_tick + Time_DELAY){
+      |             ^~~~
+../Core/Src/main.c:95:13: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:98:25: error: 'SHOW_POT' undeclared (first use in this function)
+   98 |                 state = SHOW_POT;
+      |                         ^~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:11:16 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'wait':
+../Core/Src/main.c:98:25: error: 'SHOW_POT' undeclared (first use in this function)
+   98 |                 state = SHOW_POT;
+      |                         ^~~~~~~~
+../Core/Src/main.c:98:25: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:13:51 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11712	     12	   1796	  13520	   34d0	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:14:34 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11712	     12	   1796	  13520	   34d0	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:16:07 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11684	     12	   1796	  13492	   34b4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:16:29 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11684	     12	   1796	  13492	   34b4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:17:05 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11696	     12	   1796	  13504	   34c0	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:19:30 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11700	     12	   1796	  13508	   34c4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:20:38 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11720	     12	   1796	  13528	   34d8	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:21:14 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11724	     12	   1796	  13532	   34dc	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:22:44 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11724	     12	   1796	  13532	   34dc	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:23:43 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11728	     12	   1796	  13536	   34e0	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:24:20 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11720	     12	   1796	  13528	   34d8	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:24:50 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11700	     12	   1796	  13508	   34c4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:26:14 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11700	     12	   1796	  13508	   34c4	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:26:48 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11720	     12	   1796	  13528	   34d8	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
+12:27:56 **** Incremental Build of configuration Debug for project Lecture04 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture04.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture04\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture04.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture04.elf
+ 
+arm-none-eabi-size  Lecture04.elf 
+arm-none-eabi-objdump -h -S Lecture04.elf  > "Lecture04.list"
+   text	   data	    bss	    dec	    hex	filename
+  11744	     12	   1796	  13552	   34f0	Lecture04.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture04.list
+ 
