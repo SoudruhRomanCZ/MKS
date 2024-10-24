@@ -2172,3 +2172,1086 @@ Finished building: default.size.stdout
  
 Finished building: Lecture04.list
  
+10:10:49 **** Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m0 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f030r8tx.d" -MT"Core/Startup/startup_stm32f030r8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f030r8tx.o" "../Core/Startup/startup_stm32f030r8tx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f0xx.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f0xx.d" -MT"Core/Src/system_stm32f0xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f0xx.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+   7880	     12	   1708	   9600	   2580	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+10:11:10 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-size  Lecture05.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7880	     12	   1708	   9600	   2580	Lecture05.elf
+Finished building: default.size.stdout
+ 
+10:12:19 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-size  Lecture05.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7880	     12	   1708	   9600	   2580	Lecture05.elf
+Finished building: default.size.stdout
+ 
+10:18:06 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+   8664	     12	   1772	  10448	   28d0	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+10:26:52 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_byte_available':
+../Core/Src/main.c:61:20: error: 'CMD_BUFFER_LEN' undeclared (first use in this function); did you mean 'RX_BUFFER_LEN'?
+   61 |   static char data[CMD_BUFFER_LEN];
+      |                    ^~~~~~~~~~~~~~
+      |                    RX_BUFFER_LEN
+../Core/Src/main.c:61:20: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:65:3: warning: implicit declaration of function 'uart_process_command' [-Wimplicit-function-declaration]
+   65 |   uart_process_command(data);
+      |   ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:61:15: warning: unused variable 'data' [-Wunused-variable]
+   61 |   static char data[CMD_BUFFER_LEN];
+      |               ^~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:137:38: error: 'cmd' undeclared (first use in this function)
+  137 |           printf("received: '%s'\n", cmd);
+      |                                      ^~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+10:29:59 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_byte_available':
+../Core/Src/main.c:66:3: warning: implicit declaration of function 'uart_process_command' [-Wimplicit-function-declaration]
+   66 |   uart_process_command(data);
+      |   ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:138:38: error: 'cmd' undeclared (first use in this function)
+  138 |           printf("received: '%s'\n", cmd);
+      |                                      ^~~
+../Core/Src/main.c:138:38: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+10:37:38 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_byte_available':
+../Core/Src/main.c:66:5: warning: implicit declaration of function 'uart_process_command' [-Wimplicit-function-declaration]
+   66 |     uart_process_command(data);
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:71:13: warning: conflicting types for 'uart_process_command'; have 'void(const char *)'
+   71 | static void uart_process_command(const char* cmd){
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:71:13: error: static declaration of 'uart_process_command' follows non-static declaration
+../Core/Src/main.c:66:5: note: previous implicit declaration of 'uart_process_command' with type 'void(const char *)'
+   66 |     uart_process_command(data);
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:71:13: warning: 'uart_process_command' defined but not used [-Wunused-function]
+   71 | static void uart_process_command(const char* cmd){
+      |             ^~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+10:38:47 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_byte_available':
+../Core/Src/main.c:66:5: warning: implicit declaration of function 'uart_process_command' [-Wimplicit-function-declaration]
+   66 |     uart_process_command(data);
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:71:13: warning: conflicting types for 'uart_process_command'; have 'void(char *)'
+   71 | static void uart_process_command(char* cmd){
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:71:13: error: static declaration of 'uart_process_command' follows non-static declaration
+../Core/Src/main.c:66:5: note: previous implicit declaration of 'uart_process_command' with type 'void(char *)'
+   66 |     uart_process_command(data);
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:71:13: warning: 'uart_process_command' defined but not used [-Wunused-function]
+   71 | static void uart_process_command(char* cmd){
+      |             ^~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+10:39:17 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_byte_available':
+../Core/Src/main.c:66:5: warning: implicit declaration of function 'uart_process_command' [-Wimplicit-function-declaration]
+   66 |     uart_process_command(data);
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:71:13: warning: conflicting types for 'uart_process_command'; have 'void(const char *)'
+   71 | static void uart_process_command(const char* cmd){
+      |             ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:71:13: error: static declaration of 'uart_process_command' follows non-static declaration
+../Core/Src/main.c:66:5: note: previous implicit declaration of 'uart_process_command' with type 'void(const char *)'
+   66 |     uart_process_command(data);
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:71:13: warning: 'uart_process_command' defined but not used [-Wunused-function]
+   71 | static void uart_process_command(const char* cmd){
+      |             ^~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+10:40:12 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  13972	    104	   2240	  16316	   3fbc	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+10:51:35 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+../Core/Src/main.c: In function 'uart_byte_available':
+../Core/Src/main.c:81:23: warning: character constant too long for its type
+   81 |   if (c == strcasecmp('HELLO')) {
+      |                       ^~~~~~~
+../Core/Src/main.c:81:23: warning: passing argument 1 of 'strcasecmp' makes pointer from integer without a cast [-Wint-conversion]
+   81 |   if (c == strcasecmp('HELLO')) {
+      |                       ^~~~~~~
+      |                       |
+      |                       int
+In file included from C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h:24,
+                 from ../Core/Src/main.c:25:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/strings.h:67:21: note: expected 'const char *' but argument is of type 'int'
+   67 | int      strcasecmp(const char *, const char *) __pure;
+      |                     ^~~~~~~~~~~~
+../Core/Src/main.c:81:12: error: too few arguments to function 'strcasecmp'
+   81 |   if (c == strcasecmp('HELLO')) {
+      |            ^~~~~~~~~~
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/strings.h:67:10: note: declared here
+   67 | int      strcasecmp(const char *, const char *) __pure;
+      |          ^~~~~~~~~~
+../Core/Src/main.c:82:23: warning: character constant too long for its type
+   82 |             data[0] = 'Hello, welcome to the internet';
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:82:23: warning: unsigned conversion from 'int' to 'char' changes value from '1919837556' to '116' [-Woverflow]
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+10:51:57 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_byte_available':
+../Core/Src/main.c:81:23: warning: character constant too long for its type
+   81 |   if (c == strcasecmp('HELLO')) {
+      |                       ^~~~~~~
+../Core/Src/main.c:81:23: warning: passing argument 1 of 'strcasecmp' makes pointer from integer without a cast [-Wint-conversion]
+   81 |   if (c == strcasecmp('HELLO')) {
+      |                       ^~~~~~~
+      |                       |
+      |                       int
+In file included from C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h:24,
+                 from ../Core/Src/main.c:25:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/strings.h:67:21: note: expected 'const char *' but argument is of type 'int'
+   67 | int      strcasecmp(const char *, const char *) __pure;
+      |                     ^~~~~~~~~~~~
+../Core/Src/main.c:81:12: error: too few arguments to function 'strcasecmp'
+   81 |   if (c == strcasecmp('HELLO')) {
+      |            ^~~~~~~~~~
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/strings.h:67:10: note: declared here
+   67 | int      strcasecmp(const char *, const char *) __pure;
+      |          ^~~~~~~~~~
+../Core/Src/main.c:82:25: warning: character constant too long for its type
+   82 |             data[cnt] = 'Hello, welcome to the internet';
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:82:25: warning: unsigned conversion from 'int' to 'char' changes value from '1919837556' to '116' [-Woverflow]
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+10:52:05 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_byte_available':
+../Core/Src/main.c:81:23: warning: character constant too long for its type
+   81 |   if (c == strcasecmp('HELLO')) {
+      |                       ^~~~~~~
+../Core/Src/main.c:81:23: warning: passing argument 1 of 'strcasecmp' makes pointer from integer without a cast [-Wint-conversion]
+   81 |   if (c == strcasecmp('HELLO')) {
+      |                       ^~~~~~~
+      |                       |
+      |                       int
+In file included from C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h:24,
+                 from ../Core/Src/main.c:25:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/strings.h:67:21: note: expected 'const char *' but argument is of type 'int'
+   67 | int      strcasecmp(const char *, const char *) __pure;
+      |                     ^~~~~~~~~~~~
+../Core/Src/main.c:81:12: error: too few arguments to function 'strcasecmp'
+   81 |   if (c == strcasecmp('HELLO')) {
+      |            ^~~~~~~~~~
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/strings.h:67:10: note: declared here
+   67 | int      strcasecmp(const char *, const char *) __pure;
+      |          ^~~~~~~~~~
+../Core/Src/main.c:82:25: warning: character constant too long for its type
+   82 |             data[cnt] = 'Hello';
+      |                         ^~~~~~~
+../Core/Src/main.c:82:25: warning: unsigned conversion from 'int' to 'char' changes value from '1701604463' to '111' [-Woverflow]
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+10:52:18 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_byte_available':
+../Core/Src/main.c:81:23: warning: character constant too long for its type
+   81 |   if (c == strcasecmp('HELLO')) {
+      |                       ^~~~~~~
+../Core/Src/main.c:81:23: warning: passing argument 1 of 'strcasecmp' makes pointer from integer without a cast [-Wint-conversion]
+   81 |   if (c == strcasecmp('HELLO')) {
+      |                       ^~~~~~~
+      |                       |
+      |                       int
+In file included from C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h:24,
+                 from ../Core/Src/main.c:25:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/strings.h:67:21: note: expected 'const char *' but argument is of type 'int'
+   67 | int      strcasecmp(const char *, const char *) __pure;
+      |                     ^~~~~~~~~~~~
+../Core/Src/main.c:81:12: error: too few arguments to function 'strcasecmp'
+   81 |   if (c == strcasecmp('HELLO')) {
+      |            ^~~~~~~~~~
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/strings.h:67:10: note: declared here
+   67 | int      strcasecmp(const char *, const char *) __pure;
+      |          ^~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:01:02 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:69:26: warning: passing argument 1 of 'strtok' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   69 |           token = strtok(cmd, " ");
+      |                          ^~~
+In file included from ../Core/Src/main.c:25:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h:50:18: note: expected 'char * restrict' but argument is of type 'const char *'
+   50 | char    *strtok (char *__restrict, const char *__restrict);
+      |                  ^
+../Core/Src/main.c:71:20: warning: too many arguments for format [-Wformat-extra-args]
+   71 |             printf("Communication OK\n", cmd);
+      |                    ^~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15596	    104	   2240	  17940	   4614	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:01:57 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:69:26: warning: passing argument 1 of 'strtok' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   69 |           token = strtok(cmd, " ");
+      |                          ^~~
+In file included from ../Core/Src/main.c:25:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h:50:18: note: expected 'char * restrict' but argument is of type 'const char *'
+   50 | char    *strtok (char *__restrict, const char *__restrict);
+      |                  ^
+../Core/Src/main.c:71:20: warning: too many arguments for format [-Wformat-extra-args]
+   71 |             printf("Communication OK\n", cmd);
+      |                    ^~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15600	    104	   2240	  17944	   4618	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:03:03 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:69:26: warning: passing argument 1 of 'strtok' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   69 |           token = strtok(cmd, " ");
+      |                          ^~~
+In file included from ../Core/Src/main.c:25:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h:50:18: note: expected 'char * restrict' but argument is of type 'const char *'
+   50 | char    *strtok (char *__restrict, const char *__restrict);
+      |                  ^
+../Core/Src/main.c:71:20: warning: too many arguments for format [-Wformat-extra-args]
+   71 |             printf("Hello, welcome to the internet\n", cmd);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15580	    104	   2240	  17924	   4604	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:03:30 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:69:26: warning: passing argument 1 of 'strtok' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   69 |           token = strtok(cmd," ");
+      |                          ^~~
+In file included from ../Core/Src/main.c:25:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h:50:18: note: expected 'char * restrict' but argument is of type 'const char *'
+   50 | char    *strtok (char *__restrict, const char *__restrict);
+      |                  ^
+../Core/Src/main.c:71:20: warning: too many arguments for format [-Wformat-extra-args]
+   71 |             printf("Hello, welcome to the internet\n", cmd);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15580	    104	   2240	  17924	   4604	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:04:22 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:69:26: warning: passing argument 1 of 'strtok' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   69 |           token = strtok(cmd, " ");
+      |                          ^~~
+In file included from ../Core/Src/main.c:25:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h:50:18: note: expected 'char * restrict' but argument is of type 'const char *'
+   50 | char    *strtok (char *__restrict, const char *__restrict);
+      |                  ^
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15544	    104	   2240	  17888	   45e0	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:04:49 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15544	    104	   2240	  17888	   45e0	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:10:07 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:95:48: error: invalid operands to binary + (have 'char *' and 'char *')
+   95 |             printf("Status is\n LED1: " + led1 + "\nLED2: " + led2 +"\n");
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+      |                                         |      |
+      |                                         char * char *
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:11:39 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:96:20: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   96 |             printf(led1);
+      |                    ^~~~
+      |                    |
+      |                    uint8_t {aka unsigned char}
+In file included from ../Core/Src/main.c:24:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:206:17: note: expected 'const char * restrict' but argument is of type 'uint8_t' {aka 'unsigned char'}
+  206 | int     printf (const char *__restrict, ...)
+      |                 ^
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15920	    104	   2240	  18264	   4758	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:11:59 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:96:20: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   96 |             printf(led1);
+      |                    ^~~~
+      |                    |
+      |                    uint8_t {aka unsigned char}
+In file included from ../Core/Src/main.c:24:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:206:17: note: expected 'const char * restrict' but argument is of type 'uint8_t' {aka 'unsigned char'}
+  206 | int     printf (const char *__restrict, ...)
+      |                 ^
+../Core/Src/main.c:98:20: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   98 |             printf(led2);
+      |                    ^~~~
+      |                    |
+      |                    uint8_t {aka unsigned char}
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:206:17: note: expected 'const char * restrict' but argument is of type 'uint8_t' {aka 'unsigned char'}
+  206 | int     printf (const char *__restrict, ...)
+      |                 ^
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15908	    104	   2240	  18252	   474c	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:13:03 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:96:20: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   96 |             printf(led1);
+      |                    ^~~~
+      |                    |
+      |                    char
+In file included from ../Core/Src/main.c:24:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:206:17: note: expected 'const char * restrict' but argument is of type 'char'
+  206 | int     printf (const char *__restrict, ...)
+      |                 ^
+../Core/Src/main.c:98:20: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+   98 |             printf(led2);
+      |                    ^~~~
+      |                    |
+      |                    char
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:206:17: note: expected 'const char * restrict' but argument is of type 'char'
+  206 | int     printf (const char *__restrict, ...)
+      |                 ^
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15908	    104	   2240	  18252	   474c	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:14:37 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:92:26: error: incompatible types when initializing type 'char *' using type 'GPIO_PinState'
+   92 |             char* led1 = HAL_GPIO_ReadPin(LED1_GPIO_Port, LED1_Pin);
+      |                          ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:93:26: error: incompatible types when initializing type 'char *' using type 'GPIO_PinState'
+   93 |             char* led2 = HAL_GPIO_ReadPin(LED2_GPIO_Port, LED2_Pin);
+      |                          ^~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:16:07 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  15940	    104	   2240	  18284	   476c	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:31:27 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:110:28: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  110 |             uint8_t addr = atoi(token);
+      |                            ^~~~
+../Core/Src/main.c:111:81: error: 'value' undeclared (first use in this function)
+  111 |             HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &value, 1, 1000);
+      |                                                                                 ^~~~~
+../Core/Src/main.c:111:81: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:55:17: warning: 'I2CMEMADD_SIZE_16BIT' defined but not used [-Wunused-variable]
+   55 | static uint16_t I2CMEMADD_SIZE_16BIT;
+      |                 ^~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:33:00 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:110:28: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  110 |             uint8_t addr = atoi(token);
+      |                            ^~~~
+../Core/Src/main.c:111:80: warning: passing argument 5 of 'HAL_I2C_Mem_Read' from incompatible pointer type [-Wincompatible-pointer-types]
+  111 |             HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &token, 1, 1000);
+      |                                                                                ^~~~~~
+      |                                                                                |
+      |                                                                                char **
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:241,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:635:66: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char **'
+  635 |                                    uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:117:85: warning: passing argument 5 of 'HAL_I2C_Mem_Write' from incompatible pointer type [-Wincompatible-pointer-types]
+  117 |                 HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &token, 1, 1000);
+      |                                                                                     ^~~~~~
+      |                                                                                     |
+      |                                                                                     char **
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:633:67: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char **'
+  633 |                                     uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                          ~~~~~~~~~^~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:55:17: warning: 'I2CMEMADD_SIZE_16BIT' defined but not used [-Wunused-variable]
+   55 | static uint16_t I2CMEMADD_SIZE_16BIT;
+      |                 ^~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21160	    104	   2328	  23592	   5c28	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:33:50 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:241,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:372:42: error: expected identifier or '(' before numeric constant
+  372 | #define I2C_MEMADD_SIZE_16BIT           (0x00000002U)
+      |                                          ^~~~~~~~~~~
+../Core/Src/main.c:55:17: note: in expansion of macro 'I2C_MEMADD_SIZE_16BIT'
+   55 | static uint16_t I2C_MEMADD_SIZE_16BIT;
+      |                 ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:110:28: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  110 |             uint8_t addr = atoi(token);
+      |                            ^~~~
+../Core/Src/main.c:111:80: warning: passing argument 5 of 'HAL_I2C_Mem_Read' from incompatible pointer type [-Wincompatible-pointer-types]
+  111 |             HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &token, 1, 1000);
+      |                                                                                ^~~~~~
+      |                                                                                |
+      |                                                                                char **
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:635:66: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char **'
+  635 |                                    uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:117:85: warning: passing argument 5 of 'HAL_I2C_Mem_Write' from incompatible pointer type [-Wincompatible-pointer-types]
+  117 |                 HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &token, 1, 1000);
+      |                                                                                     ^~~~~~
+      |                                                                                     |
+      |                                                                                     char **
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:633:67: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char **'
+  633 |                                     uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                          ~~~~~~~~~^~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:34:16 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:110:28: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+  110 |             uint8_t addr = atoi(token);
+      |                            ^~~~
+../Core/Src/main.c:111:80: warning: passing argument 5 of 'HAL_I2C_Mem_Read' from incompatible pointer type [-Wincompatible-pointer-types]
+  111 |             HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &token, 1, 1000);
+      |                                                                                ^~~~~~
+      |                                                                                |
+      |                                                                                char **
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:241,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:635:66: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char **'
+  635 |                                    uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:117:85: warning: passing argument 5 of 'HAL_I2C_Mem_Write' from incompatible pointer type [-Wincompatible-pointer-types]
+  117 |                 HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &token, 1, 1000);
+      |                                                                                     ^~~~~~
+      |                                                                                     |
+      |                                                                                     char **
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:633:67: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char **'
+  633 |                                     uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                          ~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21160	    104	   2328	  23592	   5c28	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:35:14 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:112:80: warning: passing argument 5 of 'HAL_I2C_Mem_Read' from incompatible pointer type [-Wincompatible-pointer-types]
+  112 |             HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &token, 1, 1000);
+      |                                                                                ^~~~~~
+      |                                                                                |
+      |                                                                                char **
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:241,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:635:66: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char **'
+  635 |                                    uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:118:85: warning: passing argument 5 of 'HAL_I2C_Mem_Write' from incompatible pointer type [-Wincompatible-pointer-types]
+  118 |                 HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &token, 1, 1000);
+      |                                                                                     ^~~~~~
+      |                                                                                     |
+      |                                                                                     char **
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:633:67: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char **'
+  633 |                                     uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                          ~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21160	    104	   2328	  23592	   5c28	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:37:19 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:113:80: warning: passing argument 5 of 'HAL_I2C_Mem_Read' from incompatible pointer type [-Wincompatible-pointer-types]
+  113 |             HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &value, 1, 1000);
+      |                                                                                ^~~~~~
+      |                                                                                |
+      |                                                                                char **
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:241,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:635:66: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char **'
+  635 |                                    uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:119:86: error: 'value' undeclared (first use in this function)
+  119 |                 HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &value, 1, 1000);
+      |                                                                                      ^~~~~
+../Core/Src/main.c:119:86: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:37:38 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:113:80: warning: pointer targets in passing argument 5 of 'HAL_I2C_Mem_Read' differ in signedness [-Wpointer-sign]
+  113 |             HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &value, 1, 1000);
+      |                                                                                ^~~~~~
+      |                                                                                |
+      |                                                                                char *
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:241,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h:635:66: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  635 |                                    uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:114:20: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  114 |             printf(value);
+      |                    ^~~~~
+      |                    |
+      |                    char
+In file included from ../Core/Src/main.c:24:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:206:17: note: expected 'const char * restrict' but argument is of type 'char'
+  206 | int     printf (const char *__restrict, ...)
+      |                 ^
+../Core/Src/main.c:119:86: error: 'value' undeclared (first use in this function)
+  119 |                 HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, addr, I2C_MEMADD_SIZE_16BIT, &value, 1, 1000);
+      |                                                                                      ^~~~~
+../Core/Src/main.c:119:86: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:47:25 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:115:20: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  115 |             printf(value);
+      |                    ^~~~~
+      |                    |
+      |                    uint8_t {aka unsigned char}
+In file included from ../Core/Src/main.c:24:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h:206:17: note: expected 'const char * restrict' but argument is of type 'uint8_t' {aka 'unsigned char'}
+  206 | int     printf (const char *__restrict, ...)
+      |                 ^
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21156	    104	   2328	  23588	   5c24	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+11:48:38 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:115:20: error: too few arguments to function 'itoa'
+  115 |             printf(itoa(value));
+      |                    ^~~~
+In file included from ../Core/Src/main.c:26:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdlib.h:227:9: note: declared here
+  227 | char *  itoa (int, char *, int);
+      |         ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:49:02 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:115:20: error: too few arguments to function 'itoa'
+  115 |             printf(itoa(addr, 0x00));
+      |                    ^~~~
+In file included from ../Core/Src/main.c:26:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdlib.h:227:9: note: declared here
+  227 | char *  itoa (int, char *, int);
+      |         ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:49:10 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:115:20: error: too few arguments to function 'itoa'
+  115 |             printf(itoa(addr));
+      |                    ^~~~
+In file included from ../Core/Src/main.c:26:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdlib.h:227:9: note: declared here
+  227 | char *  itoa (int, char *, int);
+      |         ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:49:59 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:115:21: error: too few arguments to function 'itoa'
+  115 |             token = itoa(addr);
+      |                     ^~~~
+In file included from ../Core/Src/main.c:26:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdlib.h:227:9: note: declared here
+  227 | char *  itoa (int, char *, int);
+      |         ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:50:56 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:115:21: error: too few arguments to function 'itoa'
+  115 |             token = itoa(value)(token);
+      |                     ^~~~
+In file included from ../Core/Src/main.c:26:
+C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdlib.h:227:9: note: declared here
+  227 | char *  itoa (int, char *, int);
+      |         ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:01:20 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21192	    104	   2328	  23624	   5c48	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:03:01 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21188	    104	   2328	  23620	   5c44	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:03:52 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21220	    104	   2328	  23652	   5c64	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:11:56 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21316	    104	   2328	  23748	   5cc4	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:14:39 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21316	    104	   2328	  23748	   5cc4	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:15:05 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21316	    104	   2328	  23748	   5cc4	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:16:37 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21316	    104	   2328	  23748	   5cc4	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:21:21 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21316	    104	   2328	  23748	   5cc4	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:21:57 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21316	    104	   2328	  23748	   5cc4	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:23:15 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21336	    104	   2328	  23768	   5cd8	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:26:31 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'uart_process_command':
+../Core/Src/main.c:136:23: error: 'i' undeclared (first use in this function)
+  136 |                   if (i == (0x000F / 2)) printf("\n");
+      |                       ^
+../Core/Src/main.c:136:23: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:26:44 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21324	    104	   2328	  23756	   5ccc	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:27:10 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21324	    104	   2328	  23756	   5ccc	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:28:05 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21324	    104	   2328	  23756	   5ccc	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:28:52 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21324	    104	   2328	  23756	   5ccc	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
+12:29:30 **** Incremental Build of configuration Debug for project Lecture05 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lecture05.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Temp\240642\MKS\Lecture05\STM32F030R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lecture05.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lecture05.elf
+ 
+arm-none-eabi-size  Lecture05.elf 
+arm-none-eabi-objdump -h -S Lecture05.elf  > "Lecture05.list"
+   text	   data	    bss	    dec	    hex	filename
+  21324	    104	   2328	  23756	   5ccc	Lecture05.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lecture05.list
+ 
