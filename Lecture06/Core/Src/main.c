@@ -32,7 +32,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define display_DELAY  500
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -46,6 +46,9 @@ ADC_HandleTypeDef hadc;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
+uint8_t convert = 0;
+uint32_t last_tick = 0;
+uint32_t last_tick_state = 0;
 int16_t data[] = {
   #include "data.dlm"
 };
@@ -108,22 +111,42 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	// NTC termistor via ADC
-	uint32_t result;
-	result = HAL_ADC_GetValue(&hadc);
-	sct_value(data[result],0,0);
-	HAL_Delay(100);
-
-  /*// 1wire DHT temperature sensor
-	OWConvertAll();
-	HAL_Delay(CONVERT_T_DELAY);
-
-	int16_t value;
-	if (OWReadTemperature(&value)){
-	  sct_value(value/10, 1, 0);
-
+	static enum { SHOW_DIG, SHOW_NTC} state = SHOW_NTC;
+	if (HAL_GPIO_ReadPin(S1_GPIO_Port, S1_Pin) == 0){
+	  state = SHOW_DIG;
 	}
-  */
+	if (HAL_GPIO_ReadPin(S2_GPIO_Port, S2_Pin) == 0){
+	  state = SHOW_NTC;
+	}
+
+	if (state == SHOW_DIG){
+      last_tick_state = HAL_GetTick();
+	  HAL_GPIO_WritePin(LED1_GPIO_Port,LED1_Pin, 0);
+	  HAL_GPIO_WritePin(LED2_GPIO_Port,LED2_Pin, 1);
+	  // 1wire DHT temperature sensor
+	  if (!convert){
+		convert = 1;
+		OWConvertAll();
+	  }
+	  if (HAL_GetTick() > last_tick + CONVERT_T_DELAY){
+	    last_tick = HAL_GetTick();
+		int16_t value;
+		if (OWReadTemperature(&value)){
+		  sct_value(value/10, 0, 0);
+		  convert = 0;
+		}
+	  }
+	}
+
+	if (state == SHOW_NTC && HAL_GetTick() > last_tick_state + display_DELAY){
+	  last_tick_state = HAL_GetTick();
+	  HAL_GPIO_WritePin(LED2_GPIO_Port,LED2_Pin, 0);
+	  HAL_GPIO_WritePin(LED1_GPIO_Port,LED1_Pin, 1);
+	  // NTC termistor via ADC
+	  uint32_t result;
+	  result = HAL_ADC_GetValue(&hadc);
+	  sct_value(data[result],0,0);
+	}
 
     /* USER CODE END WHILE */
 
@@ -194,7 +217,7 @@ static void MX_ADC_Init(void)
   */
   hadc.Instance = ADC1;
   hadc.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV1;
-  hadc.Init.Resolution = ADC_RESOLUTION_12B;
+  hadc.Init.Resolution = ADC_RESOLUTION_10B;
   hadc.Init.DataAlign = ADC_DATAALIGN_RIGHT;
   hadc.Init.ScanConvMode = ADC_SCAN_DIRECTION_FORWARD;
   hadc.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
@@ -279,10 +302,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, LED1_Pin|LD2_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, LED2_Pin|SCT_NOE_Pin|SCT_CLK_Pin|SCT_SDI_Pin
@@ -303,19 +323,12 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : LED1_Pin */
-  GPIO_InitStruct.Pin = LED1_Pin;
+  /*Configure GPIO pins : LED1_Pin LD2_Pin */
+  GPIO_InitStruct.Pin = LED1_Pin|LD2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(LED1_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : LD2_Pin */
-  GPIO_InitStruct.Pin = LD2_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(LD2_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : LED2_Pin SCT_NOE_Pin SCT_CLK_Pin SCT_SDI_Pin
                            SCT_NLA_Pin */

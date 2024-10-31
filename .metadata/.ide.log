@@ -1073,3 +1073,73 @@
 2024-10-31 10:51:47,033 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1310mS.
 2024-10-31 10:51:47,034 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
 2024-10-31 10:51:47,038 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-10-31 11:34:37,430 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 309800944 Bytes (982515712)
+2024-10-31 11:34:38,449 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 332797160 Bytes (982515712)
+2024-10-31 11:34:38,649 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 352920208 Bytes (982515712)
+2024-10-31 11:34:38,841 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2024-10-31 11:34:38,841 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-10-31 11:34:38,841 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-10-31 11:34:38,841 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-10-31 11:34:38,842 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-10-31 11:34:38,842 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-10-31 11:34:38,843 [INFO] CodeGenerator:807 - code generatio: config db path: C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.0.202406281431\\db\
+2024-10-31 11:34:38,938 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\MXTmpFiles\license.tmp_save
+2024-10-31 11:34:39,062 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\MXTmpFiles\license.tmp
+2024-10-31 11:34:39,157 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\MXTmpFiles\gpio.tmp_save
+2024-10-31 11:34:39,267 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\MXTmpFiles\gpio.tmp
+2024-10-31 11:34:39,478 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_it.c_save
+2024-10-31 11:34:39,658 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_it.c
+2024-10-31 11:34:39,666 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_it.h_save
+2024-10-31 11:34:39,744 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_it.h
+2024-10-31 11:34:39,760 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_hal_msp.c_save
+2024-10-31 11:34:39,883 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_hal_msp.c
+2024-10-31 11:34:39,889 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\MXTmpFiles\system.tmp_save
+2024-10-31 11:34:39,962 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\MXTmpFiles\system.tmp
+2024-10-31 11:34:39,977 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_hal_conf.h_save
+2024-10-31 11:34:40,057 [INFO] CodeEngine:335 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_hal_conf.h
+2024-10-31 11:34:40,083 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Inc\main.h_save
+2024-10-31 11:34:40,184 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Inc\main.h
+2024-10-31 11:34:40,195 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Src\main.c_save
+2024-10-31 11:34:40,329 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Src\main.c
+2024-10-31 11:34:40,750 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 234mS.
+2024-10-31 11:34:40,755 [INFO] ProjectBuilder:4828 - Project Generator version: 4.4.0-B60
+2024-10-31 11:34:40,856 [INFO] ConfigFileManager:1531 - The Die is : DIE440
+2024-10-31 11:34:41,906 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1151mS.
+2024-10-31 11:34:41,908 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-10-31 11:34:41,911 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-10-31 11:54:56,670 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-31 11:54:59,889 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 675386896 Bytes (947912704)
+2024-10-31 11:55:01,482 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 697183544 Bytes (947912704)
+2024-10-31 11:55:01,697 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 714338000 Bytes (947912704)
+2024-10-31 11:55:01,937 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2024-10-31 11:55:01,937 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-10-31 11:55:01,937 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-10-31 11:55:01,937 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-10-31 11:55:01,937 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-10-31 11:55:01,938 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-10-31 11:55:01,938 [INFO] CodeGenerator:807 - code generatio: config db path: C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.0.202406281431\\db\
+2024-10-31 11:55:02,016 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\MXTmpFiles\license.tmp_save
+2024-10-31 11:55:02,116 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\MXTmpFiles\license.tmp
+2024-10-31 11:55:02,184 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\MXTmpFiles\gpio.tmp_save
+2024-10-31 11:55:02,290 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\MXTmpFiles\gpio.tmp
+2024-10-31 11:55:02,484 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_it.c_save
+2024-10-31 11:55:02,662 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_it.c
+2024-10-31 11:55:02,670 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_it.h_save
+2024-10-31 11:55:02,743 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_it.h
+2024-10-31 11:55:02,758 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_hal_msp.c_save
+2024-10-31 11:55:02,876 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_hal_msp.c
+2024-10-31 11:55:02,882 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\MXTmpFiles\system.tmp_save
+2024-10-31 11:55:02,951 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\MXTmpFiles\system.tmp
+2024-10-31 11:55:02,965 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_hal_conf.h_save
+2024-10-31 11:55:03,043 [INFO] CodeEngine:335 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_hal_conf.h
+2024-10-31 11:55:03,065 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Inc\main.h_save
+2024-10-31 11:55:03,164 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Inc\main.h
+2024-10-31 11:55:03,174 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Src\main.c_save
+2024-10-31 11:55:03,302 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Src\main.c
+2024-10-31 11:55:03,716 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 229mS.
+2024-10-31 11:55:03,720 [INFO] ProjectBuilder:4828 - Project Generator version: 4.4.0-B60
+2024-10-31 11:55:03,820 [INFO] ConfigFileManager:1531 - The Die is : DIE440
+2024-10-31 11:55:04,736 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1016mS.
+2024-10-31 11:55:04,737 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-10-31 11:55:04,741 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-10-31 12:31:09,722 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
