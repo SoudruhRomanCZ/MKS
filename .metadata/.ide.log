@@ -1002,3 +1002,38 @@
 2024-10-31 10:17:50,710 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1783mS.
 2024-10-31 10:17:50,711 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
 2024-10-31 10:17:50,716 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-10-31 10:25:42,306 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2024-10-31 10:25:42,352 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-31 10:26:20,523 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 731755232 Bytes (930086912)
+2024-10-31 10:26:21,831 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 749392824 Bytes (930086912)
+2024-10-31 10:26:22,079 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 786682696 Bytes (930086912)
+2024-10-31 10:26:22,338 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-10-31 10:26:22,338 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-10-31 10:26:22,338 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-10-31 10:26:22,338 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-10-31 10:26:22,338 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-10-31 10:26:22,339 [INFO] CodeGenerator:807 - code generatio: config db path: C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.0.202406281431\\db\
+2024-10-31 10:26:22,445 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\MXTmpFiles\license.tmp_save
+2024-10-31 10:26:22,610 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\MXTmpFiles\license.tmp
+2024-10-31 10:26:22,697 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\MXTmpFiles\gpio.tmp_save
+2024-10-31 10:26:22,798 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\MXTmpFiles\gpio.tmp
+2024-10-31 10:26:22,973 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_it.c_save
+2024-10-31 10:26:23,096 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_it.c
+2024-10-31 10:26:23,109 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_it.h_save
+2024-10-31 10:26:23,215 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_it.h
+2024-10-31 10:26:23,239 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_hal_msp.c_save
+2024-10-31 10:26:23,365 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Src\stm32f0xx_hal_msp.c
+2024-10-31 10:26:23,371 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\MXTmpFiles\system.tmp_save
+2024-10-31 10:26:23,448 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\MXTmpFiles\system.tmp
+2024-10-31 10:26:23,462 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_hal_conf.h_save
+2024-10-31 10:26:23,544 [INFO] CodeEngine:335 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Inc\stm32f0xx_hal_conf.h
+2024-10-31 10:26:23,571 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Inc\main.h_save
+2024-10-31 10:26:23,660 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Inc\main.h
+2024-10-31 10:26:23,674 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture06\Core\Src\main.c_save
+2024-10-31 10:26:23,798 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture06\Core\Src\main.c
+2024-10-31 10:26:24,285 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 281mS.
+2024-10-31 10:26:24,290 [INFO] ProjectBuilder:4828 - Project Generator version: 4.4.0-B60
+2024-10-31 10:26:24,385 [INFO] ConfigFileManager:1531 - The Die is : DIE440
+2024-10-31 10:26:25,743 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1452mS.
+2024-10-31 10:26:25,744 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-10-31 10:26:25,748 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
