@@ -1195,3 +1195,78 @@
 2024-11-07 10:17:07,252 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1399mS.
 2024-11-07 10:17:07,253 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
 2024-11-07 10:17:07,261 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-11-07 10:42:15,102 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2024-11-07 10:43:16,980 [INFO] I2cTimingTraitement:330 - 0x00201D2B
+2024-11-07 10:44:45,288 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 543640416 Bytes (912261120)
+2024-11-07 10:44:46,373 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 568127408 Bytes (912261120)
+2024-11-07 10:44:46,593 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 597571512 Bytes (912261120)
+2024-11-07 10:44:46,831 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-11-07 10:44:46,831 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FREERTOS
+2024-11-07 10:44:46,831 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-11-07 10:44:46,831 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-11-07 10:44:46,832 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-11-07 10:44:46,832 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-11-07 10:44:46,832 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2024-11-07 10:44:46,834 [INFO] CodeGenerator:807 - code generatio: config db path: C:\appz\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.0.202406281431\\db\
+2024-11-07 10:44:46,951 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\license.tmp_save
+2024-11-07 10:44:47,237 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\license.tmp
+2024-11-07 10:44:47,293 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\gpio.tmp_save
+2024-11-07 10:44:47,376 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\gpio.tmp
+2024-11-07 10:44:47,563 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-11-07 10:44:47,572 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_inc.tmp_save
+2024-11-07 10:44:47,648 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_inc.tmp
+2024-11-07 10:44:47,653 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_vars.tmp_save
+2024-11-07 10:44:47,727 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_vars.tmp
+2024-11-07 10:44:47,732 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_pfp.tmp_save
+2024-11-07 10:44:47,803 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_pfp.tmp
+2024-11-07 10:44:47,809 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-11-07 10:44:47,881 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_obj_creat.tmp
+2024-11-07 10:44:47,886 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-11-07 10:44:47,954 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_kernelStart.tmp
+2024-11-07 10:44:47,959 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_default_thread.tmp_save
+2024-11-07 10:44:48,029 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_default_thread.tmp
+2024-11-07 10:44:48,034 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_threads.tmp_save
+2024-11-07 10:44:48,102 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_threads.tmp
+2024-11-07 10:44:48,118 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2024-11-07 10:44:48,129 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_inc.tmp_save
+2024-11-07 10:44:48,196 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_inc.tmp
+2024-11-07 10:44:48,204 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_vars.tmp_save
+2024-11-07 10:44:48,274 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_vars.tmp
+2024-11-07 10:44:48,283 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_pfp.tmp_save
+2024-11-07 10:44:48,352 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_pfp.tmp
+2024-11-07 10:44:48,359 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_obj_creat.tmp_save
+2024-11-07 10:44:48,431 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_obj_creat.tmp
+2024-11-07 10:44:48,438 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_kernelStart.tmp_save
+2024-11-07 10:44:48,506 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_kernelStart.tmp
+2024-11-07 10:44:48,513 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_default_thread.tmp_save
+2024-11-07 10:44:48,583 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_default_thread.tmp
+2024-11-07 10:44:48,591 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_threads.tmp_save
+2024-11-07 10:44:48,660 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\rtos_threads.tmp
+2024-11-07 10:44:48,669 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\Core\Inc\FreeRTOSConfig.h_save
+2024-11-07 10:44:48,754 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\Core\Inc\FreeRTOSConfig.h
+2024-11-07 10:44:48,762 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\Core\Src\freertos.c_save
+2024-11-07 10:44:48,839 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\Core\Src\freertos.c
+2024-11-07 10:44:48,855 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\Core\Src\stm32f0xx_it.c_save
+2024-11-07 10:44:49,018 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\Core\Src\stm32f0xx_it.c
+2024-11-07 10:44:49,026 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\Core\Inc\stm32f0xx_it.h_save
+2024-11-07 10:44:49,099 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\Core\Inc\stm32f0xx_it.h
+2024-11-07 10:44:49,115 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\Core\Src\stm32f0xx_hal_msp.c_save
+2024-11-07 10:44:49,241 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\Core\Src\stm32f0xx_hal_msp.c
+2024-11-07 10:44:49,248 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\MXTmpFiles\system.tmp_save
+2024-11-07 10:44:49,316 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\MXTmpFiles\system.tmp
+2024-11-07 10:44:49,324 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\Core\Src\stm32f0xx_hal_timebase_tim.c_save
+2024-11-07 10:44:49,402 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\Core\Src\stm32f0xx_hal_timebase_tim.c
+2024-11-07 10:44:49,419 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\Core\Inc\stm32f0xx_hal_conf.h_save
+2024-11-07 10:44:49,495 [INFO] CodeEngine:335 - Generated code: C:\Temp\240642\MKS\Lecture07\Core\Inc\stm32f0xx_hal_conf.h
+2024-11-07 10:44:49,524 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\Core\Inc\main.h_save
+2024-11-07 10:44:49,627 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\Core\Inc\main.h
+2024-11-07 10:44:49,636 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Temp\240642\MKS\Lecture07\Core\Src\main.c_save
+2024-11-07 10:44:49,777 [INFO] CodeEngine:279 - Generated code: C:\Temp\240642\MKS\Lecture07\Core\Src\main.c
+2024-11-07 10:44:50,307 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 316mS.
+2024-11-07 10:44:50,313 [INFO] ProjectBuilder:4828 - Project Generator version: 4.4.0-B60
+2024-11-07 10:44:50,428 [INFO] ConfigFileManager:1531 - The Die is : DIE440
+2024-11-07 10:44:51,785 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1472mS.
+2024-11-07 10:44:51,786 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-11-07 10:44:51,799 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-11-07 11:14:57,048 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connection reset
+2024-11-07 11:14:59,362 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
