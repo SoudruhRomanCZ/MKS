@@ -330,10 +330,6 @@ static void MX_GPIO_Init(void)
 /* USER CODE END Header_StartDefaultTask */
 void StartDefaultTask(void const * argument)
 {
-  uint32_t rnd;
-  HAL_RNG_GenerateRandomNumber(&hrng, &rnd);
-  srand(rnd);
-
   /* init code for LWIP */
   MX_LWIP_Init();
   /* USER CODE BEGIN 5 */
